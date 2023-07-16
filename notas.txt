@@ -1,0 +1,5 @@
+//Busca errores dentro del fichero
+eslint js/app.js
+
+//Repara las líneas de errores
+eslint js/app.js --fix
