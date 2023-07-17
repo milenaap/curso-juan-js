@@ -18,4 +18,4 @@ console.log(producto.substring(2, 1));
 
 const usuario = "Milena";
 console.log(usuario.substring(0,10))
-console.log(usuario.charAt(0))
+console.log(usuario.charAt(0));
