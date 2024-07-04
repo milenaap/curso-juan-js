@@ -18,19 +18,23 @@
         }
 
 
+
         if(validar(cliente)) {
             //Mostrar mensaje
 
-            console.log('Todos los campos son obligatorios')
-
+            console.log('Todos los campos son obligatorios');
+            return;   
         }
+
+
+        
     }
 
     function validar(obj) {
-        return !Object.values(obj).every( input => input !== '')
+        return !Object.values(obj).every( input => input !== '');
     }
         
     }
 
 
-})();
+)();
