@@ -1,4 +1,6 @@
-import { mostrarAlerta } from "./funciones.js";
+import { mostrarAlerta, validar } from "./funciones.js";
+import { nuevoCliente } from "./API.js";
+
 
 (function() {
     const formulario = document.querySelector('#formulario');
@@ -19,24 +21,20 @@ import { mostrarAlerta } from "./funciones.js";
             empresa
         }
 
-
-
         if(validar(cliente)) {
             //Mostrar mensaje
-
+            
             mostrarAlerta('Todos los campos son obligatorios');
             return;   
         }
 
+        nuevoCliente(cliente);
 
+    }
+
+    
         
-    }
-
-    function validar(obj) {
-        return !Object.values(obj).every( input => input !== '');
-    }
-        
-    }
+    
 
 
-)();
+})();

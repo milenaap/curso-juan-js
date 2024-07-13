@@ -1,11 +1,25 @@
 {
   "clientes": [
     {
-      "nombre": "Juan NUEVO!",
-      "email": "correo2@correo.com",
-      "telefono": "12",
-      "empresa": "12212",
-      "id": 26
+      "nombre": "Milena",
+      "email": "darimile@gmail.com",
+      "telefono": "666666",
+      "empresa": "Hello Kitty",
+      "id": "4ef4"
+    },
+    {
+      "nombre": "Martha ",
+      "email": "correo@gmail.com",
+      "telefono": "8888888",
+      "empresa": "Kitty",
+      "id": "d014"
+    },
+    {
+      "nombre": "Dariana",
+      "email": "darianadamiled@gmail.com",
+      "telefono": "777777",
+      "empresa": "Ñañi",
+      "id": "e580"
     }
   ]
 }
