@@ -37,6 +37,10 @@ function consultarCriptomonedas() {
 // llena el select 
 function selectCriptomonedas(criptomonedas) {
 
+    // Conocer el tiempo de ejecucion
+
+    const inicio = performance.now();
+
     criptomonedas.forEach( cripto => {
         const { FullName, Name } = cripto.CoinInfo;
         const option = document.createElement('option');
@@ -45,6 +49,9 @@ function selectCriptomonedas(criptomonedas) {
         // insertar el HTML
         criptomonedasSelect.appendChild(option);
     });
+
+    const fin = performance.now();
+    console.log(fin-inicio);
 
 }
 
